@@ -178,4 +178,4 @@ Position: & \@claimedposition \\
 \newcommand\createfootnote{%
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
     \renewcommand\footnoterule{\rule{0.3\linewidth}{0.5pt}}
-    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/orgoca/latex_cv}{source code}}}
+    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/orgoca/CV-2021}{source code}}}
