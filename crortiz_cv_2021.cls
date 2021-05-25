@@ -78,14 +78,14 @@
 \newcommand\coverletter[1]{ 
 \\  \coverlettersubview 
 \section{} \vspace{1ex} 
-\textbf{ Dear \@contactperson, \\[0.1cm]}
+\textbf{ Estimados \@contactperson, \\[0.1cm]}
   #1
 }
 
 \newcommand\coverlettersubview{
 \begin{tabular}{>{\scshape \bfseries \color{\@themecolor}}l  >{\small }l}
-Company: & \@companyname \\
-Position: & \@claimedposition \\
+Compañia: & \@companyname \\
+Posición: & \@claimedposition \\
 \end{tabular}
 }
 
@@ -178,4 +178,4 @@ Position: & \@claimedposition \\
 \newcommand\createfootnote{%
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
     \renewcommand\footnoterule{\rule{0.3\linewidth}{0.5pt}}
-    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/orgoca/CV-2021}{source code}}}
+    \let\thefootnote\relax\footnote{\today\ / Carlos Ortiz-Gomez / \href{https://github.com/orgoca/CV-2021}{source code}}}
